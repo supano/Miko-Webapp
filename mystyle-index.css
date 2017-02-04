@@ -1,0 +1,151 @@
+	body {
+		background-image: url("images/blurred-background.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-attachment: fixed;
+		font-family: MyriadPro;
+		width:auto;
+		height:auto;
+		background-size:cover;
+	} 
+
+/*¿Íµì¹*/
+
+		@font-face {
+		font-family: MyriadPro;
+		src: url("font/MyriadPro-Regular.otf");
+		}
+
+/*login*/
+	 .textbox { 
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		border-radius: 5px; 
+		border: 3px solid #ffffff; 
+		outline:3; 
+		height:40px; 
+		width: 275px; 
+		font-size:25px;
+	 } 
+	 .textbox1 { 
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		border-radius: 5px; 
+		border: 3px solid #ffffff; 
+		outline:3; 
+		height:30px; 
+		width: 275px; 
+		font-size:20px;
+	 } 
+	 .list1 { 
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		border-radius: 5px; 
+		border: 3px solid #ffffff; 
+		outline:3; 
+		height:30px; 
+		width: 100px; 
+		font-size:20px;
+	 } 
+	 .password { 
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		border-radius: 5px; 
+		border: 3px solid #ffffff; 
+		outline:3; 
+		height:40px; 
+		width: 275px; 
+		font-size:25px;
+	 }
+
+	#login-table	{
+			position: fixed;
+			top:50%;
+			left:50%;
+			margin-left:px;
+			margin-top:-200px;
+
+			}
+	#reg-table	{
+			font-family: MyriadPro;
+			}
+	#reg-table1	{
+			padding-right:50px;
+			padding-bottom:10px;
+			}
+	#reg-table2	{
+			padding-right:20px;
+			padding-bottom:10px;
+			}
+	#reg-table3	{
+			padding-bottom:10px;
+			}	
+
+	#logo-index	{
+			position: fixed;
+			top:50%;
+			left:50%;
+			margin-left:-350px;
+			margin-top:-150px;
+			}
+	#login-button		{
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		border-radius: 5px; 
+		background-color: #ffffff;
+		border: 0px solid #ffffff; 
+		outline:3; 
+		height:30px; 
+		width: 100px; 
+		font-family: MyriadPro;
+			}
+
+/* fade in */
+		#fadein {
+			animation: fadein 1.5s;
+			-moz-animation: fadein 1.5s;							/* Firefox */
+			-webkit-animation: fadein 1.5s;						/* Safari and Chrome */
+			-o-animation: fadein 1.5s;							/* Opera */
+		}
+		@keyframes fadein	{
+			from {opacity:0;}
+			to {opacity:1;}
+		}
+		@-moz-keyframes fadein {								/* Firefox */
+			from {opacity:0;}
+			to {opacity:1;}
+		}
+		@-webkit-keyframes fadein {								/* Safari and Chrome */
+			from {opacity:0;}
+			to {opacity:1;}
+		}
+		@-o-keyframes fadein {									/* Opera */
+			from {opacity:0;}
+			to {opacity: 1;}
+		}
+
+/*Footer*/
+
+	#footer {
+	position:fixed;
+	bottom:0px;	
+	}
+
+		#button3		{
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		border-radius: 5px; 
+		background-color: #ffffff;
+		border: 0px solid #ffffff; 
+		outline:3; 
+		height:30px; 
+		width: 150px; 
+		font-family: button1;
+		font-size:20px;
+		font-weight: bold;
+			}
+
+					@font-face {
+		font-family: button1;
+		src: url("font/ThaiSans Neue v1.0/TrueType/ThaiSansNeue-Regular.ttf");
+		}
